@@ -1280,7 +1280,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/HemtKhan/HEMAT2009/main/public.txt").text
+	r1=requests.get("https://raw.githubusercontent.com/KingFahim/kingfahimoo/main/Public.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
